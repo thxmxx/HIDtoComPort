@@ -169,7 +169,7 @@ namespace PostageScale
                 if (!serialPort.IsOpen)
                 {
                     serialPort.Open();
-                    serialPort.BaudRate = 115200;
+                    serialPort.BaudRate = 9600;
                     serialPort.Parity = Parity.None;
                     serialPort.DataBits = 8;
                     serialPort.StopBits = StopBits.One;
